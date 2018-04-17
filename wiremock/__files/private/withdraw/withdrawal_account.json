@@ -1,0 +1,12 @@
+{
+  "success": 1,
+  "data": {
+    "accounts": [
+      {
+        "uuid": "string",
+        "label": "string",
+        "address": "string"
+      }
+    ]
+  }
+}

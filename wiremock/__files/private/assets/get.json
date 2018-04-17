@@ -1,0 +1,15 @@
+{
+  "success": 1,
+  "data": {
+    "assets": [
+      {
+        "asset": "string",
+        "amount_precision": 0,
+        "onhand_amount": "string",
+        "locked_amount": "string",
+        "free_amount": "string",
+        "withdrawal_fee": "string"
+      }
+    ]
+  }
+}

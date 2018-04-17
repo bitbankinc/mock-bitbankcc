@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/user/spot/cancel_orders",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.order_ids"
+      },
+      {
+        "matchesJsonPath": "$.pair"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/order/cancel_orders.json"
+  }
+}

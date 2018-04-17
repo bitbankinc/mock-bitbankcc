@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/user/spot/order",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.pair"
+      },
+      {
+        "matchesJsonPath": "$.price"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/order/post.json"
+  }
+}

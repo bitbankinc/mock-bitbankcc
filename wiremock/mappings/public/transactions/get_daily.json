@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "urlPattern" : "/.*/transactions/[0-9]{8}"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName": "./public/transactions/get.json"
+  }
+}
