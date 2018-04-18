@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/user/assets",
+    "urlPattern": "\/(|v1\/)user\/assets",
     "headers": {
       "ACCESS-KEY": {
         "matches": ".*"

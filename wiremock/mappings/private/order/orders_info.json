@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/user/spot/orders_info",
+    "urlPattern": "\/(|v1\/)user\/spot\/orders_info",
     "headers": {
       "ACCESS-KEY": {
         "matches": ".*"

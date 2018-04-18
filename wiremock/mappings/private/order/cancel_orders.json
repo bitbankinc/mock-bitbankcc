@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/user/spot/cancel_orders",
+    "urlPattern": "\/(|v1\/)user\/spot\/cancel_orders",
     "headers": {
       "ACCESS-KEY": {
         "matches": ".*"
