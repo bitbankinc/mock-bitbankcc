@@ -3,9 +3,12 @@
   "data": {
     "accounts": [
       {
-        "uuid": "string",
-        "label": "string",
-        "address": "string"
+        "uuid": "7bf80c7d-d0d4-428f-af15-75ed8d5ceaa1",
+        "bank_name": "ビット銀行",
+        "branch_name": "五反田支店",
+        "account_type": "普通",
+        "account_number": "0000000",
+        "account_owner": "ミョウジナマエ"
       }
     ]
   }

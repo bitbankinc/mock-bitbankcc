@@ -5,7 +5,7 @@
     "asset": "string",
     "amount": 0,
     "account_uuid": "string",
-    "fee": "string",
+    "fee": "200",
     "status": "string",
     "label": "string",
     "txid": "string",

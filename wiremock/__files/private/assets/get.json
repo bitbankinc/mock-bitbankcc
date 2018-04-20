@@ -3,12 +3,78 @@
   "data": {
     "assets": [
       {
-        "asset": "string",
-        "amount_precision": 0,
-        "onhand_amount": "string",
-        "locked_amount": "string",
-        "free_amount": "string",
-        "withdrawal_fee": "string"
+        "asset": "jpy",
+        "amount_precision": 4,
+        "onhand_amount": "31279060.2696",
+        "locked_amount": "0.0000",
+        "free_amount": "31279060.2696",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": {
+          "threshold": "30000.0000",
+          "under": "540.0000",
+          "over": "756.0000"
+        }
+      },
+      {
+        "asset": "btc",
+        "amount_precision": 8,
+        "onhand_amount": "89.77000000",
+        "locked_amount": "0.00000000",
+        "free_amount": "89.77000000",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": "0.00050000"
+      },
+      {
+        "asset": "ltc",
+        "amount_precision": 8,
+        "onhand_amount": "10.00000000",
+        "locked_amount": "0.00000000",
+        "free_amount": "10.00000000",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": "0.00100000"
+      },
+      {
+        "asset": "xrp",
+        "amount_precision": 6,
+        "onhand_amount": "2000.000000",
+        "locked_amount": "0.000000",
+        "free_amount": "2000.000000",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": "0.012000"
+      },
+      {
+        "asset": "eth",
+        "amount_precision": 8,
+        "onhand_amount": "110.00000000",
+        "locked_amount": "0.00000000",
+        "free_amount": "110.00000000",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": "0.00050000"
+      },
+      {
+        "asset": "mona",
+        "amount_precision": 8,
+        "onhand_amount": "200.00000000",
+        "locked_amount": "0.00000000",
+        "free_amount": "200.00000000",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": "0.00100000"
+      },
+      {
+        "asset": "bcc",
+        "amount_precision": 8,
+        "onhand_amount": "2.00000000",
+        "locked_amount": "0.00000000",
+        "free_amount": "2.00000000",
+        "stop_deposit": false,
+        "stop_withdrawal": false,
+        "withdrawal_fee": "0.00100000"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "GET",
-    "urlPattern" : "/.*/candlestick/.*/[0-9]{4,8}"
+    "urlPattern" : "/.*/candlestick/.*/([0-9]{8}|[0-9]{4})"
   },
   "response" : {
     "status" : 200,

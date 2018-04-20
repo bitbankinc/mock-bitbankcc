@@ -11,8 +11,8 @@
         "amount": "string",
         "price": "string",
         "maker_taker": "string",
-        "fee_amount_base": "string",
-        "fee_amount_quote": "string",
+        "fee_amount_base": "0",
+        "fee_amount_quote": "0",
         "executed_at": 0
       }
     ]

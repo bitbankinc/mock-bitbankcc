@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "GET",
-    "urlPattern" : "/.*/transactions/[0-9]{8}"
+    "urlPattern" : "/.*/transactions/([0-9]{8}|[0-9]{4})"
   },
   "response" : {
     "status" : 200,
