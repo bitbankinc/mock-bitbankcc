@@ -1,0 +1,20 @@
+{
+  "success": 1,
+  "data": {
+    "trades": [
+      {
+        "trade_id": 0,
+        "pair": "string",
+        "order_id": 0,
+        "side": "string",
+        "type": "string",
+        "amount": "string",
+        "price": "string",
+        "maker_taker": "string",
+        "fee_amount_base": "0",
+        "fee_amount_quote": "0",
+        "executed_at": 0
+      }
+    ]
+  }
+}

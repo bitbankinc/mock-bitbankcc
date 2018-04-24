@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "urlPattern" : "/.*/depth"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName": "./public/depth/get.json"
+  }
+}

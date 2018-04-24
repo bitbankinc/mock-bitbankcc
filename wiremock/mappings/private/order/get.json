@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "\/(|v1\/)user\/spot\/order.*",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    },
+    "queryParameters": {
+      "order_id": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/order/get.json"
+  }
+}
