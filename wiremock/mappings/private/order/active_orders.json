@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "\/(|v1\/)user\/spot\/active_orders.*",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/order/active_orders.json"
+  }
+}

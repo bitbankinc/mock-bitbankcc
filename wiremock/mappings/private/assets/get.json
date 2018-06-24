@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "\/(|v1\/)user\/assets",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/assets/get.json"
+  }
+}
