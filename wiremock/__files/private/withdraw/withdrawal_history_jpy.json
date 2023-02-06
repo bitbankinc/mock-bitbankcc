@@ -1,0 +1,35 @@
+{
+  "success": 1,
+  "data": {
+    "withdrawals": [
+      {
+        "uuid": "39d037b0-a5c9-11ed-a2cf-9f0ceff6ed96",
+        "asset": "jpy",
+        "account_uuid": "7bf80c7d-d0d4-428f-af15-75ed8d5ceaa1",
+        "amount": "1000",
+        "fee": "550",
+        "bank_name": "ビット銀行",
+        "branch_name": "五反田支店",
+        "account_type": "普通",
+        "account_number": "0000000",
+        "account_owner": "ミョウジナマエ",
+        "status": "DONE",
+        "requested_at": 1675650362713
+      },
+      {
+        "uuid": "3a506430-a5c9-11ed-a685-45f636463562",
+        "asset": "jpy",
+        "account_uuid": "7bf80c7d-d0d4-428f-af15-75ed8d5ceaa1",
+        "amount": "30000",
+        "fee": "770",
+        "bank_name": "ビット銀行",
+        "branch_name": "五反田支店",
+        "account_type": "普通",
+        "account_number": "0000000",
+        "account_owner": "ミョウジナマエ",
+        "status": "CONFIRM_TIMEOUT",
+        "requested_at": 1671092606884
+      }
+    ]
+  }
+}

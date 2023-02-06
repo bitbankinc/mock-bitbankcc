@@ -1,0 +1,31 @@
+{
+  "success": 1,
+  "data": {
+    "withdrawals": [
+      {
+        "uuid": "39d037b0-a5c9-11ed-a2cf-9f0ceff6ed96",
+        "asset": "btc",
+        "account_uuid": "c182bfb0-a5f7-11ed-8f0a-a1e4e805be95",
+        "amount": "0.1",
+        "fee": "0.006",
+        "label": "my wallet",
+        "address": "31h1vYVSYuKP6AhS86fbRdMw9XHieotbST",
+        "txid": null,
+        "status": "CANCELED",
+        "requested_at": 1675672797064
+      },
+      {
+        "uuid": "3a506430-a5c9-11ed-a685-45f636463562",
+        "asset": "btc",
+        "account_uuid": "c182bfb0-a5f7-11ed-8f0a-a1e4e805be95",
+        "amount": "1.0",
+        "fee": "0.0006",
+        "label": "my wallet",
+        "address": "31h1vYVSYuKP6AhS86fbRdMw9XHieotbST",
+        "txid": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "status": "DONE",
+        "requested_at": 1675672798064
+      }
+    ]
+  }
+}
