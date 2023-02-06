@@ -1,0 +1,25 @@
+{
+  "success": 1,
+  "data": {
+    "deposits": [
+      {
+        "uuid": "50944b11-9334-420b-b21f-d9ee6f76ff52",
+        "asset": "btc",
+        "amount": "10",
+        "txid": null,
+        "found_at": 1675653901770,
+        "confirmed_at": 1675653911770,
+        "status": "DONE"
+      },
+      {
+        "uuid": "b8ba914a-e2e9-455c-aa8c-e8e865e17927",
+        "asset": "btc",
+        "amount": "0.012",
+        "txid": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "found_at": 1675653902492,
+        "confirmed_at": 1675653912492,
+        "status": "DONE"
+      }
+    ]
+  }
+}

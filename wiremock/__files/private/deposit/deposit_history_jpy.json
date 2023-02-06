@@ -1,0 +1,23 @@
+{
+  "success": 1,
+  "data": {
+    "deposits": [
+      {
+        "uuid": "8f16596f-f07f-4e5e-8724-8562080537b3",
+        "asset": "jpy",
+        "amount": "1000000",
+        "found_at": 1675653901770,
+        "confirmed_at": 1675653901770,
+        "status": "DONE"
+      },
+      {
+        "uuid": "977f83fe-6400-45ae-9056-b907a307b13a",
+        "asset": "jpy",
+        "amount": "1000000",
+        "found_at": 1675653902492,
+        "confirmed_at": 1675653902492,
+        "status": "DONE"
+      }
+    ]
+  }
+}
