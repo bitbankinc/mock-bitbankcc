@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/(|v1/)user/withdrawal_account.*",
+    "urlPattern": "\/(|v1\/)user\/withdrawal_account.*",
     "headers": {
       "ACCESS-KEY": {
         "matches": ".*"
