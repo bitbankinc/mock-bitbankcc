@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/(|v1/)user/withdrawal_account.*",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    },
+    "queryParameters": {
+      "asset": {
+        "doesNotMatch": "jpy"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/withdraw/withdrawal_account_cc.json"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "request": {
-    "method": "GET",
-    "urlPattern": "\/(|v1\/)user\/withdrawal_account.*",
+    "method": "POST",
+    "urlPattern": "/(|v1/)user/request_withdrawal",
     "headers": {
       "ACCESS-KEY": {
         "matches": ".*"
@@ -12,10 +12,15 @@
       "ACCESS-SIGNATURE": {
         "matches": ".*"
       }
-    }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.asset != 'jpy')]"
+      }
+    ]
   },
   "response": {
     "status": 200,
-    "bodyFileName": "./private/withdraw/withdrawal_account.json"
+    "bodyFileName": "./private/withdraw/request_withdrawal_cc.json"
   }
 }
