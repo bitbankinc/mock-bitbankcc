@@ -66,8 +66,6 @@
         "onhand_amount": "2000.000000",
         "locked_amount": "0.000000",
         "free_amount": "2000.000000",
-        "stop_deposit": false,
-        "stop_withdrawal": false,
         "withdrawal_fee": {
           "min": "0.100000",
           "max": "0.100000"
