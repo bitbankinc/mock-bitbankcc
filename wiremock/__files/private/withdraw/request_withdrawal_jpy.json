@@ -1,0 +1,17 @@
+{
+  "success": 1,
+  "data": {
+    "uuid": "7890a7d0-89eb-11ee-9c4f-d4735e3a265e",
+    "asset": "jpy",
+    "account_uuid": "7bf80c7d-d0d4-428f-af15-75ed8d5ceaa1",
+    "amount": "20000",
+    "fee": "550",
+    "bank_name": "ビット銀行",
+    "branch_name": "五反田支店",
+    "account_type": "普通",
+    "account_number": "0000000",
+    "account_owner": "ミョウジナマエ",
+    "status": "CONFIRMING",
+    "requested_at": 1700735492813
+  }
+}

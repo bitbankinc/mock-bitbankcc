@@ -22,9 +22,21 @@
         "onhand_amount": "89.77000000",
         "locked_amount": "0.00000000",
         "free_amount": "89.77000000",
+        "withdrawal_fee": {
+          "min": "0.00060000",
+          "max": "0.00060000"
+        },
         "stop_deposit": false,
         "stop_withdrawal": false,
-        "withdrawal_fee": "0.00050000"
+        "network_list": [
+          {
+            "asset": "btc",
+            "network": "bitcoin",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00060000"
+          }
+        ]
       },
       {
         "asset": "ltc",
@@ -32,9 +44,21 @@
         "onhand_amount": "10.00000000",
         "locked_amount": "0.00000000",
         "free_amount": "10.00000000",
+        "withdrawal_fee": {
+          "min": "0.00150000",
+          "max": "0.00150000"
+        },
         "stop_deposit": false,
         "stop_withdrawal": false,
-        "withdrawal_fee": "0.00100000"
+        "network_list": [
+          {
+            "asset": "ltc",
+            "network": "litecoin",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00150000"
+          }
+        ]
       },
       {
         "asset": "xrp",
@@ -42,9 +66,21 @@
         "onhand_amount": "2000.000000",
         "locked_amount": "0.000000",
         "free_amount": "2000.000000",
+        "withdrawal_fee": {
+          "min": "0.100000",
+          "max": "0.100000"
+        },
         "stop_deposit": false,
         "stop_withdrawal": false,
-        "withdrawal_fee": "0.012000"
+        "network_list": [
+          {
+            "asset": "xrp",
+            "network": "ripple",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.100000"
+          }
+        ]
       },
       {
         "asset": "eth",
@@ -52,9 +88,35 @@
         "onhand_amount": "110.00000000",
         "locked_amount": "0.00000000",
         "free_amount": "110.00000000",
+        "withdrawal_fee": {
+          "min": "0.00042000",
+          "max": "0.00500000"
+        },
         "stop_deposit": false,
         "stop_withdrawal": false,
-        "withdrawal_fee": "0.00050000"
+        "network_list": [
+          {
+            "asset": "eth",
+            "network": "ethereum",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00500000"
+          },
+          {
+            "asset": "eth",
+            "network": "arbitrum",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00042000"
+          },
+          {
+            "asset": "eth",
+            "network": "op",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00042000"
+          }
+        ]
       },
       {
         "asset": "mona",
@@ -62,9 +124,21 @@
         "onhand_amount": "200.00000000",
         "locked_amount": "0.00000000",
         "free_amount": "200.00000000",
+        "withdrawal_fee": {
+          "min": "0.00100000",
+          "max": "0.00100000"
+        },
         "stop_deposit": false,
         "stop_withdrawal": false,
-        "withdrawal_fee": "0.00100000"
+        "network_list": [
+          {
+            "asset": "mona",
+            "network": "monacoin",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00100000"
+          }
+        ]
       },
       {
         "asset": "bcc",
@@ -72,9 +146,21 @@
         "onhand_amount": "2.00000000",
         "locked_amount": "0.00000000",
         "free_amount": "2.00000000",
+        "withdrawal_fee": {
+          "min": "0.00100000",
+          "max": "0.00100000"
+        },
         "stop_deposit": false,
         "stop_withdrawal": false,
-        "withdrawal_fee": "0.00100000"
+        "network_list": [
+          {
+            "asset": "bcc",
+            "network": "bitcoincash",
+            "stop_deposit": false,
+            "stop_withdrawal": false,
+            "withdrawal_fee": "0.00100000"
+          }
+        ]
       }
     ]
   }

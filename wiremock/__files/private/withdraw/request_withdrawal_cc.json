@@ -1,0 +1,16 @@
+{
+  "success": 1,
+  "data": {
+    "uuid": "5265b0a0-89eb-11ee-9c4f-6b86b273ff34",
+    "network": "bitcoin",
+    "asset": "btc",
+    "account_uuid": "39d037b0-a5c9-11ed-a2cf-9f0ceff6ed96",
+    "amount": "1",
+    "fee": "0.0006",
+    "label": "my wallet",
+    "address": "31h1vYVSYuKP6AhS86fbRdMw9XHieotbST",
+    "txid": null,
+    "status": "CONFIRMING",
+    "requested_at": 1700735428778
+  }
+}

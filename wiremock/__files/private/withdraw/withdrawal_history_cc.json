@@ -4,6 +4,7 @@
     "withdrawals": [
       {
         "uuid": "39d037b0-a5c9-11ed-a2cf-9f0ceff6ed96",
+        "network": "bitcoin",
         "asset": "btc",
         "account_uuid": "c182bfb0-a5f7-11ed-8f0a-a1e4e805be95",
         "amount": "0.1",
@@ -16,6 +17,7 @@
       },
       {
         "uuid": "3a506430-a5c9-11ed-a685-45f636463562",
+        "network": "bitcoin",
         "asset": "btc",
         "account_uuid": "c182bfb0-a5f7-11ed-8f0a-a1e4e805be95",
         "amount": "1.0",

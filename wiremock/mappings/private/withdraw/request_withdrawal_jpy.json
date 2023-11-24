@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "\/(|v1\/)user\/request_withdrawal",
+    "headers": {
+      "ACCESS-KEY": {
+        "matches": ".*"
+      },
+      "ACCESS-NONCE": {
+        "matches": "[0-9]+"
+      },
+      "ACCESS-SIGNATURE": {
+        "matches": ".*"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.asset == 'jpy')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "./private/withdraw/request_withdrawal_jpy.json"
+  }
+}

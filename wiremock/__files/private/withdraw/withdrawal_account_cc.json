@@ -1,0 +1,33 @@
+{
+  "success": 1,
+  "data": {
+    "accounts": [
+      {
+        "uuid": "2c380d60-9d9d-11ec-b3ed-6dae1b7380c7",
+        "label": "my wallet",
+        "network": "bitcoin",
+        "address": "31h1vYVSYuKP6AhS86fbRdMw9XHieotbST",
+        "destination_tag": null,
+        "withdrawal_type": "VASP",
+        "withdrawal_name": null,
+        "withdrawal_purpose": "保管",
+        "vasp_id": 12,
+        "beneficiary_type": "OWN",
+        "beneficiary_last_name": null,
+        "beneficiary_first_name": null,
+        "beneficiary_last_kana": null,
+        "beneficiary_first_kana": null,
+        "beneficiary_company_name": null,
+        "beneficiary_company_kana": null,
+        "beneficiary_company_type": null,
+        "beneficiary_company_type_position": null,
+        "beneficiary_country": null,
+        "beneficiary_zip_code": null,
+        "beneficiary_prefecture": null,
+        "beneficiary_city": null,
+        "beneficiary_address": null,
+        "beneficiary_building": null
+      }
+    ]
+  }
+}
