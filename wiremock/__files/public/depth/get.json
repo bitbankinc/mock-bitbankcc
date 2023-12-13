@@ -1605,6 +1605,11 @@
         "0.0300"
       ]
     ],
-    "timestamp": 1523945148888
+    "asks_over": "0",
+    "bids_under": "0",
+    "asks_under": "0",
+    "bids_over": "0",
+    "timestamp": 1523945148888,
+    "sequenceId": "123456789"
   }
 }
