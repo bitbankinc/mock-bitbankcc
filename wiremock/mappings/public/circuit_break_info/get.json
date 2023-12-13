@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "method" : "GET",
+    "urlPattern" : "/.*/circuit_break_info"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName": "./public/circuit_break_info/get.json"
+  }
+}
