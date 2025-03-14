@@ -1,0 +1,74 @@
+{
+  "success": 1,
+  "data": {
+    "notice": {
+      "what": null,
+      "occurred_at": null,
+      "amount": null,
+      "due_date_at": null
+    },
+    "payables": {
+      "amount": "0.0000"
+    },
+    "positions": [
+      {
+          "pair": "btc_jpy",
+          "position_side": "long",
+          "open_amount": "0.0000",
+          "product": "0.0000",
+          "average_price": "0",
+          "unrealized_fee_amount": "0.0000",
+          "unrealized_interest_amount": "0.0000"
+      },
+      {
+          "pair": "btc_jpy",
+          "position_side": "short",
+          "open_amount": "0.0000",
+          "product": "0.0000",
+          "average_price": "0",
+          "unrealized_fee_amount": "0.0000",
+          "unrealized_interest_amount": "0.0000"
+      },
+      {
+          "pair": "xrp_jpy",
+          "position_side": "long",
+          "open_amount": "0.0000",
+          "product": "0.0000",
+          "average_price": "0",
+          "unrealized_fee_amount": "0.0000",
+          "unrealized_interest_amount": "0.0000"
+      },
+      {
+          "pair": "xrp_jpy",
+          "position_side": "short",
+          "open_amount": "0.0000",
+          "product": "0.0000",
+          "average_price": "0",
+          "unrealized_fee_amount": "0.0000",
+          "unrealized_interest_amount": "0.0000"
+      },
+      {
+          "pair": "eth_jpy",
+          "position_side": "long",
+          "open_amount": "0.0000",
+          "product": "0.0000",
+          "average_price": "0",
+          "unrealized_fee_amount": "0.0000",
+          "unrealized_interest_amount": "0.0000"
+      },
+      {
+          "pair": "eth_jpy",
+          "position_side": "short",
+          "open_amount": "0.0001",
+          "product": "2.9000",
+          "average_price": "29000",
+          "unrealized_fee_amount": "0.0005",
+          "unrealized_interest_amount": "0.0000"
+      }
+    ],
+    "losscut_threshold": {
+      "individual": "0.5",
+      "company": "0.5"
+    }
+  }
+}
