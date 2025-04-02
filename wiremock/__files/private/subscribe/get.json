@@ -1,0 +1,7 @@
+{
+  "success": 1,
+  "data": {
+    "pubnub_channel": "pubnub_channel",
+    "pubnub_token": "pubnub_token"
+  }
+}
