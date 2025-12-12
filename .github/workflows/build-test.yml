@@ -5,6 +5,7 @@ on:
 
 jobs:
   build-test:
+    if: github.repository == 'bitbankinc/mock-bitbankcc'
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
