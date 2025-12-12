@@ -4,13 +4,13 @@
     "trades": [
       {
         "trade_id": 0,
-        "pair": "string",
+        "pair": "btc_jpy",
         "order_id": 0,
-        "side": "string",
-        "type": "string",
-        "amount": "string",
-        "price": "string",
-        "maker_taker": "string",
+        "side": "sell",
+        "type": "limit",
+        "amount": "0.123456",
+        "price": "0.123456",
+        "maker_taker": "maker",
         "fee_amount_base": "0",
         "fee_amount_quote": "0",
         "executed_at": 0
